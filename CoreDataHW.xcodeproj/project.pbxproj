@@ -22,6 +22,9 @@
 		63DE673218E084AE0046FC89 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63DE671618E084AE0046FC89 /* CoreData.framework */; };
 		63DE673A18E084AE0046FC89 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 63DE673818E084AE0046FC89 /* InfoPlist.strings */; };
 		63DE673C18E084AE0046FC89 /* CoreDataHWTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 63DE673B18E084AE0046FC89 /* CoreDataHWTests.m */; };
+		63DE674718E085640046FC89 /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = 63DE674618E085640046FC89 /* Student.m */; };
+		63DE674B18E0859E0046FC89 /* CDHWViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63DE674918E0859E0046FC89 /* CDHWViewController.m */; };
+		63DE674C18E0859E0046FC89 /* CDHWViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 63DE674A18E0859E0046FC89 /* CDHWViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,11 @@
 		63DE673718E084AE0046FC89 /* CoreDataHWTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CoreDataHWTests-Info.plist"; sourceTree = "<group>"; };
 		63DE673918E084AE0046FC89 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		63DE673B18E084AE0046FC89 /* CoreDataHWTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreDataHWTests.m; sourceTree = "<group>"; };
+		63DE674518E085640046FC89 /* Student.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
+		63DE674618E085640046FC89 /* Student.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
+		63DE674818E0859E0046FC89 /* CDHWViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDHWViewController.h; path = ../CDHWViewController.h; sourceTree = "<group>"; };
+		63DE674918E0859E0046FC89 /* CDHWViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CDHWViewController.m; path = ../CDHWViewController.m; sourceTree = "<group>"; };
+		63DE674A18E0859E0046FC89 /* CDHWViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CDHWViewController.xib; path = ../CDHWViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +127,11 @@
 				63DE672218E084AE0046FC89 /* CDHWAppDelegate.m */,
 				63DE672718E084AE0046FC89 /* Images.xcassets */,
 				63DE672418E084AE0046FC89 /* CoreDataHW.xcdatamodeld */,
+				63DE674518E085640046FC89 /* Student.h */,
+				63DE674618E085640046FC89 /* Student.m */,
+				63DE674818E0859E0046FC89 /* CDHWViewController.h */,
+				63DE674918E0859E0046FC89 /* CDHWViewController.m */,
+				63DE674A18E0859E0046FC89 /* CDHWViewController.xib */,
 				63DE671918E084AE0046FC89 /* Supporting Files */,
 			);
 			path = CoreDataHW;
@@ -229,6 +242,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63DE674C18E0859E0046FC89 /* CDHWViewController.xib in Resources */,
 				63DE671D18E084AE0046FC89 /* InfoPlist.strings in Resources */,
 				63DE672818E084AE0046FC89 /* Images.xcassets in Resources */,
 			);
@@ -252,6 +266,8 @@
 				63DE672618E084AE0046FC89 /* CoreDataHW.xcdatamodeld in Sources */,
 				63DE672318E084AE0046FC89 /* CDHWAppDelegate.m in Sources */,
 				63DE671F18E084AE0046FC89 /* main.m in Sources */,
+				63DE674B18E0859E0046FC89 /* CDHWViewController.m in Sources */,
+				63DE674718E085640046FC89 /* Student.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
